@@ -28,7 +28,13 @@ npm install
 npx tsc --watch
 ```
 
-### 5.  Run tests
+### 5. Run independent file  
+
+```bash
+npx ts-node src/fileName.ts
+```
+
+### 6.  Run tests
 
 ```bash
 npm run test
